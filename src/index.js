@@ -1,5 +1,7 @@
 import "./styles.css";
 import pizzaImg from "../assets/img/pizzahd.png";
+import flyingVegetable from "../assets/img/chilly.png"
+import tomato from "../assets/img/tomato.png"
 
 //creating element of hero section
 const content = document.querySelector("#content");
@@ -30,6 +32,19 @@ const image = document.createElement("img");
 image.src = pizzaImg;
 image.classList.add("pizza-img");
 rightHeroSectionDiv.appendChild(image);
+
+//adding flying tomatoes
+
+const flyingTomatoes = document.createElement("img");
+flyingTomatoes.src = flyingVegetable;
+flyingTomatoes.classList.add("flying-tomato");
+content.appendChild(flyingTomatoes)
+
+//adding tomato img
+const redTomato = document.createElement("img");
+redTomato.src = tomato;
+redTomato.classList.add("red-tomato");
+content.appendChild(redTomato)
 
 //attaching element to their corresponding DOM elt
 content.appendChild(heroSection);

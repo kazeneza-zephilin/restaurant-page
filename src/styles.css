@@ -99,6 +99,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+.flying-tomato {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -40px;
+}
+.red-tomato {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -25px;
+    bottom: 10px;
+}
 .pizza-img {
     width: 450px;
     height: 450px;
