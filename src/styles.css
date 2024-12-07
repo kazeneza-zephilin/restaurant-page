@@ -1,0 +1,22 @@
+@font-face {
+    font-family:"pacifico-regular" ;
+    src: url(../assets/font/pacifico-regular-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"poppins-regular";
+    src: url(../assets/font/poppins-regular-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"poppins-bold";
+    src: url(../assets/font/poppins-bold-webfont.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: pacifico-regular;
+}
