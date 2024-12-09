@@ -152,3 +152,39 @@ body {
     margin-left: 80px;
     cursor: pointer;
 }
+
+/* menu styles */
+
+.menu-div {
+    margin-top: 50px;
+    margin-left: 85px;
+    color: #AB250E;
+    font-family: pacifico-regular, sans-serif;
+}
+
+.bottom-pizza-img {
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    opacity: 0.6;
+}
+/* .product-name {
+    font-family: pacifico-bold, sans-serif;
+}
+#topping-price {
+    font-family: poppins-regular, sans-serif;
+} */
+
+/* about page */
+.about-us-title {
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 36px;
+    font-family: pacifico-regular, sans-serif;
+}
+.about-description {
+    width: 600px;
+    font-family: poppins-regular, sans-serif;
+    line-height: 1.6;
+    margin-left: 80px;
+}

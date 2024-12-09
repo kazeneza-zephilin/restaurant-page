@@ -8,6 +8,7 @@ import tomato from "../assets/img/tomato.png"
 export function loadHomePage(){
     //creating element of hero section
     const content = document.querySelector("#content");
+    content.textContent = "" //clearing the content
     const heroSection = document.createElement("div");
     const leftHeroSectionDiv = document.createElement("div");
     const rightHeroSectionDiv = document.createElement("div");
